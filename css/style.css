@@ -1,0 +1,38 @@
+/* Debug */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+.prev,
+.next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+}
+.slide {
+    width: calc(100% - 100px);
+    height: 100%;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fas {
+    font-size: 30px;
+    cursor: pointer;
+}
